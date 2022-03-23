@@ -25,29 +25,8 @@
 	height: 55px;
 	background: #05090c;
 	border-radius: 4.59px;
-}
-
-.header-button-register_text
-{
-	position: absolute;
-    padding: 19px 40px;
-	font: normal 600 16px/1 'Montserrat';
-	color: #fff;
-}
-
-.top-button-register_text
-{
-	position: absolute;
-    padding: 19px 82.5px;
-	font: normal 600 16px/1 'Montserrat';
+	font: normal 600 16px/1 'Montserrat';	
 	color: #fff;	
-}
-.top__title
-{
-	width: 745px;
-	height: 138.31px;
-	font: normal 600 100px/0.82 'Montserrat';
-	color: #000;
 }
 
 .top__button
@@ -56,6 +35,16 @@
 	height: 55px;
 	background: #05090c;
 	border-radius: 4.59px;
+	font: normal 600 16px/1 'Montserrat';
+	color: #fff;		
+}
+
+.top__title
+{
+	width: 745px;
+	height: 138.31px;
+	font: normal 600 100px/0.82 'Montserrat';
+	color: #000;
 }
 
 .top__text
@@ -83,7 +72,7 @@
 	height: 145px;
 }
 
-.image_time
+.image-time
 {
 	margin-top: 5.41px;
 	margin-left: 118px;
@@ -105,7 +94,7 @@
 	height: 145px;
 }
 
-.image_notebook
+.image-notebook
 {
 	margin-top: 4.42px;
 	margin-left: 135.42px;
@@ -126,7 +115,7 @@
 	height: 145px;
 }
 
-.image_target
+.image-target
 {
 	margin-top: 3.93px;
 	margin-left: 119.99px;
@@ -152,7 +141,7 @@
 	width: 1136px;
 }
 
-.title_creation
+.title-creation
 {
 	width: 376px;
 	height: 61px;
@@ -174,7 +163,7 @@
 }
 
 
-.title_deadline
+.title-deadline
 {
 	width: 386px;
 	height: 61px;
@@ -217,7 +206,7 @@
 	border-radius: 7.35px;	
 }
 
-.first-step_text
+.first-step-text
 {
 	padding: 0px 0px 0px 40.25px;
 	width: 269.77px;
@@ -234,7 +223,7 @@
 	border-radius: 7.35px;	
 }
 
-.second-step_text
+.second-step-text
 {
 	padding: 0px 0px 0px 40.25px;
 	width: 269.77px;
@@ -251,7 +240,7 @@
 	border-radius: 7.35px;	
 }
 
-.third-step_text
+.third-step-text
 {
 	padding: 0px 0px 0px 40.25px;
 	width: 238.77px;
@@ -268,7 +257,7 @@
 	border-radius: 7.35px;	
 }
 
-.fourth-step_text
+.fourth-step-text
 {
 	padding: 0px 0px 0px 40.25px;
 	width: 263.77px;
@@ -285,7 +274,7 @@
 	border-radius: 7.35px;	
 }
 
-.fifth-step_text
+.fifth-step-text
 {
 	padding: 0px 0px 0px 40.25px;
 	width: 209.77px;
@@ -302,7 +291,7 @@
 	border-radius: 7.35px;	
 }
 
-.sixth-step_text
+.sixth-step-text
 {
 	padding: 0px 0px 0px 40.25px;
 	width: 286px;
