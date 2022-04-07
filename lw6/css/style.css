@@ -1,6 +1,7 @@
 *
 {
     margin: 0;
+	padding: 0;
 }
 
 .header
@@ -146,7 +147,8 @@
 }
 
 .short-descritpion__content
-{
+{	
+	margin-bottom: 142px;
 	width: 1138px;
 	margin-top: 111px;
 	display: flex;
@@ -190,7 +192,7 @@
 .text-notebook
 {
 	margin-top: 17px;
-	margin-left: 12px;
+	margin-left: 13px;
 	width: 337px;
 }
 
@@ -243,17 +245,6 @@
 .title-creation
 {
 	width: 376px;
-	font: normal 500 48px/38px 'Montserrat';
-	color: #000;	
-}
-
-.text-creation
-{
-	/* margin-top: 14px; */
-	margin-left: 1px;
-	/* width: 574px;
-	font: normal 400 18px/24px 'Roboto Condensed';
-	color: rgba(0, 0, 0, 0.7); */
 }
 
 .blog__deadline
@@ -270,7 +261,7 @@
 {
 	max-width: 377px;
 	max-height: 620px;
-	margin-left: 81px;
+	margin-left: 171px;
 }
 
 .deadline_content
@@ -280,22 +271,17 @@
 
 .title-deadline
 {
-	width: 386px;
+	width: 386px;	
+}
+
+.blog__title
+{
 	font: normal 500 48px/38px 'Montserrat';
 	color: #000;	
 }
-/* 
-.text-deadline
-{
-	margin-top: 14px;
-	width: 574px;
-	font: normal 400 18px/24px 'Roboto Condensed';
-	color: rgba(0, 0, 0, 0.7);
-} */
-
 .blog__text
 {
-	margin-top: 14px;
+	margin-top: 37px;
 	max-width: 574px;
 	font: normal 400 18px/24px 'Roboto Condensed';
 	color: rgba(0, 0, 0, 0.7);
@@ -340,11 +326,6 @@
 	height: 190px;
 	background: #000;
 	border-radius: 7px;	
-}
-
-.about-course-box:nth-child(3n)
-{
-	margin-right: 0;
 }
 
 .about-course__text
@@ -449,5 +430,7 @@
 {
 	margin-left: 18px;
 	margin-top: 30px;
+	margin-bottom: 30px;
 	max-width: 167px;
+	max-height: 108px;
 }
