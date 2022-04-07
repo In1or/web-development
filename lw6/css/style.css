@@ -3,77 +3,82 @@
     margin: 0;
 }
 
-.element { -ms-overflow-style: none; }
-
 .header
 {	
 	width: 100%;
-	height: 115px;
 	display: flex;
     justify-content: space-between;
     align-items: center;	
-	/* vertical-align: super; */
 }
 
 .header__logo
 {
-	margin-top: -3px;
+	margin-top: 27px;
 	margin-left: 122px;
 }
 
-.header__link
+.header__nav-bar
 {
-	margin-top: 4px;
-	margin-right: 174px;
+	margin-top: 30px;
+	margin-right: 103px;
 	display: flex;
 	flex-grow: 1;
 	justify-content: flex-end;
 }
 
-.header__nav-bar
+.header__link
 {
-	width: 500px;
-	margin-left: 10px;
+	margin-top: 4px;
 	font: normal 500 16px/0.8 'Montserrat';
 	color: #000;
 	display: flex;
     justify-content: flex-end;
     align-items: center;	
-	top: 200px;
+}
+
+.header__text
+{
+	text-decoration: none;
+	color: #000;
 }
 
 .text_what-will
 {
-	width: 171px;
-	margin-right: 83px;
+	max-width: 168px;
+	margin-right: 87px;
 }
 
 .text_questions
 {
-	width: 77px;
-	margin-right: 87px;
+	max-width: 77px;
+	margin-right: 88px;
 }
 
 .text_author
 {
-	width: 51px;
-	margin-right: 28px;
+	max-width: 51px;
+	margin-right: 99px;
 }
 
 .header__button
 {	
 	position: relative;
-	right: 103px;
 	width: 247px;
+}
+
+.button-register
+{
 	height: 55px;
 	background: #05090c;
-	border-radius: 4.59px;
-	font: normal 600 16px/1 'Montserrat';	
+	border-radius: 5px;
+	font: normal 600 16px/1 'Montserrat';
 	color: #fff;	
+	border: none;	
 }
 
 .main
 {
+	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -81,39 +86,35 @@
 
 .top
 {
-	width: 1700px;
+	max-width: 1700px;
 	display: flex;
+
 }
 
 .top__info
 {
-	padding-left: 76px;
+	max-width: 865px;
+	padding-left: 33px;
 	padding-top: 146px;
+	margin-right: 14px;
 }
 
 .top__button
 {
 	width: 332px;
-	height: 55px;
-	background: #05090c;
-	border-radius: 4.59px;
-	font: normal 600 16px/1 'Montserrat';
-	color: #fff;		
 }
 
 .top__title
 {
-	width: 745px;
+	max-width: 745px;
 	margin-top: 67px;
-	/* margin-left: -1px; */
 	font: normal 600 100px/0.82 'Montserrat';
 	color: #000;
 }
 
 .top__text
 {
-	width: 545px;
-	height: 62px;
+	max-width: 545px;
 	margin-top: 41px;
 	font: normal 400 26px/1.2 'Roboto Condensed';
 	color: rgba(0, 0, 0, 0.7);
@@ -126,25 +127,22 @@
 
 .top__button
 {
-	margin-top: 45px;
-	margin-left: -1px;
+	margin-top: 46px;
 }
 
 .top__image
 {
-	margin-top: -54px;
-	margin-left: -14px;
+	margin-left: 34px;
+	max-width: 849px;
 }
 
 .short-description
 {
-	margin-top: -50px;
+	margin-top: 58px;
 	display: flex;
 	width: 100%;
-	height: 398px;
 	background: #000;
 	justify-content: center;
-	/* align-items: center; */
 }
 
 .short-descritpion__content
@@ -155,6 +153,12 @@
 	justify-content: space-between;
 }
 
+.short-description_text
+{
+	font: normal 400 22px/1.2 'Roboto Condensed';
+	color: #fff;
+	text-align: center;	
+}
 .short-description__time
 {
 	width: 285px;
@@ -170,10 +174,6 @@
 {
 	margin-top: 17px;
 	width: 303px;
-	height: 52px;
-	font: normal 400 22px/1.2 'Roboto Condensed';
-	color: #fff;
-	text-align: center;
 }
 
 .short-description__notebook
@@ -192,10 +192,6 @@
 	margin-top: 17px;
 	margin-left: 12px;
 	width: 337px;
-	height: 52px;
-	font: normal 400 22px/1.2 'Roboto Condensed';
-	color: #fff;
-	text-align: center;
 }
 
 .short-description__target
@@ -213,29 +209,27 @@
 {
 	margin-top: 17px;
 	margin-left: 4px;
-	width: 303.95px;
-	height: 52px;
-	font: normal 400 22px/1.2 'Roboto Condensed';
-	color: #fff;	
-	text-align: center;
+	width: 304px;
 }
 
 .blog
 {
-	width: 1920px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 }
 
 .blog__creation
 {	
 	margin-top: 72px;
-	width: 1136px;
 	height: 520px;
 	display: flex;
 }
 
 .blog__finances_image
 {
-	margin-left: 373px;
+	margin-left: -9px;
 	max-width: 538px;
 	max-height: 476px;
 }
@@ -249,25 +243,23 @@
 .title-creation
 {
 	width: 376px;
-	height: 61px;
 	font: normal 500 48px/38px 'Montserrat';
 	color: #000;	
 }
 
 .text-creation
 {
-	margin-top: 14px;
+	/* margin-top: 14px; */
 	margin-left: 1px;
-	width: 574px;
-	height: 48px;
+	/* width: 574px;
 	font: normal 400 18px/24px 'Roboto Condensed';
-	color: rgba(0, 0, 0, 0.7);
+	color: rgba(0, 0, 0, 0.7); */
 }
 
 .blog__deadline
 {
 	margin-top: 34px;
-	margin-left: 298px;
+	margin-right: 188px;
 	width: 1135px;
 	height: 691px;
 	display: flex;
@@ -289,16 +281,22 @@
 .title-deadline
 {
 	width: 386px;
-	height: 61px;
 	font: normal 500 48px/38px 'Montserrat';
 	color: #000;	
 }
-
+/* 
 .text-deadline
 {
 	margin-top: 14px;
 	width: 574px;
-	height: 44px;
+	font: normal 400 18px/24px 'Roboto Condensed';
+	color: rgba(0, 0, 0, 0.7);
+} */
+
+.blog__text
+{
+	margin-top: 14px;
+	max-width: 574px;
 	font: normal 400 18px/24px 'Roboto Condensed';
 	color: rgba(0, 0, 0, 0.7);
 }
@@ -306,12 +304,11 @@
 .about-course
 {
 	width: 1235px;
-	height: 530px;
 	display: flex;
 	flex-direction: column;
 }
 
-.about-course_tiles
+.about-course-tiles
 {
 	margin-top: 59px;
 	margin-left: 60px;
@@ -326,14 +323,13 @@
 	margin-top: 65px;
 	margin-left: 349px;
 	width: 553px;
-	height: 59px;
 	font: normal 500 48px/59px 'Montserrat';
 	text-align: center;
 	color: #000;
 }
 
 
-.about-course_box
+.about-course-box
 {
 	margin-right: 30px;
 	margin-bottom: 30px;
@@ -343,28 +339,32 @@
 	width: 358px;
 	height: 190px;
 	background: #000;
-	border-radius: 7.35px;	
+	border-radius: 7px;	
 }
 
-.text_style
+.about-course-box:nth-child(3n)
+{
+	margin-right: 0;
+}
+
+.about-course__text
 {	
-	height: 51px;
 	font: normal 400 18px/21px 'Roboto Condensed';
 	color: #fff;
 }
 
 .image_first
 {
-	margin-top: 33px;
+	margin-top: 34px;
 	margin-left: 39px;
-	max-width: 37.5px;
+	max-width: 37px;
 }
 
 .first-step-text
 {
-	margin-top: 22px;
+	margin-top: 23px;
 	margin-left: 39px;
-	width: 269.77px;
+	max-width: 270px;
 }
 
 .image_second
@@ -377,8 +377,8 @@
 .second-step-text
 {
 	margin-top: 21px;
-	margin-left: 40px;
-	width: 269.77px;
+	margin-left: 39px;
+	max-width: 270px;
 }
 
 .image_third
@@ -391,8 +391,8 @@
 .third-step-text
 {
 	margin-top: 22px;
-	margin-left: 40px;
-	width: 238.77px;
+	margin-left: 39px;
+	max-width: 239px;
 }
 
 .image_fourth
@@ -405,8 +405,8 @@
 .fourth-step-text
 {
 	margin-top: 21px;
-	margin-left: 40px;
-	width: 263.77px;
+	margin-left: 39px;
+	max-width: 260px;
 }
 
 .image_fifth
@@ -419,8 +419,8 @@
 .fifth-step-text
 {
 	margin-top: 21px;
-	margin-left: 40px;
-	width: 209.77px;
+	margin-left: 39px;
+	max-width: 210px;
 }
 
 .image_sixth
@@ -433,14 +433,13 @@
 .sixth-step-text
 {
 	margin-top: 21px;
-	margin-left: 40px;
-	width: 286px;
+	margin-left: 39px;
+	max-width: 286px;
 }
 
 .footer
 {
-	margin-top: 352px;
-	height: 108px;
+	margin-top: 259px;
 	display: flex;
 	justify-content: center;
 	background: #000;	
@@ -450,6 +449,5 @@
 {
 	margin-left: 18px;
 	margin-top: 30px;
-	width: 167px;
-	height: 48px;
+	max-width: 167px;
 }
