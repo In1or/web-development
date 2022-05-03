@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+	padding: 0;
+}
+
+.record-form__email
+{   
+    margin-top: 52px;
+    margin-left: 59px;
+	padding: 23px 27px 23px 28px;
+	background: #FFFFFF;
+	border: 1px solid #C0C0C0;
+	box-sizing: border-box;
+	border-radius: 4px;
+    width: 480px;
+    height: 64px;
+}
+
+.record-form__button
+{
+    margin-top: 52px;
+    margin-left: 53px;
+	width: 480px;
+    height: 64px;
+	background: #05090c;
+	border-radius: 5px;
+	font: normal 600 16px/1 'Montserrat';
+	color: #fff;	
+	border: none;	
+	cursor: pointer;
+}
+
+.view-data
+{
+    margin: 68px 59px;
+    font: normal 400 18px/1.35 'Roboto Condensed';
+}
+
+.view-data p
+{
+    margin: 0;
+}
