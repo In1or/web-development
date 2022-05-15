@@ -1,13 +1,14 @@
 USE university;
 
 SELECT
-	student.name_class AS Группа,
-    class.name_faculty AS Факультет
+	g.name AS `Group`,
+    f.name AS Faculty
 FROM
-	student
-LEFT JOIN class ON student.name_class = class.name_class
+	student s
+LEFT JOIN `group` g ON s.id_group = g.id
+LEFT JOIN faculty f ON g.id_faculty = f.id
 WHERE
-	name = 'Павел' AND surename = 'Чухланцев';
+	s.name = 'Павел' AND s.surename = 'Чухланцев';
 
 -- для проверки можно искать Павел Чухланцев
 						  -- Иван  Иванов 

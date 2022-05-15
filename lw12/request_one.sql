@@ -1,11 +1,11 @@
 USE university;
 
 SELECT
-	student.name AS Имя,
-    student.surename AS Фамилия,
-    student.age AS Возраст,
-    student.name_class AS Группа
+	s.id AS Id,
+	s.name AS Имя,
+    s.surename AS Фамилия,
+    s.age AS Возраст
 FROM
-	student
+	student s
 WHERE 
-	student.age = 19;
+	s.age = 19;

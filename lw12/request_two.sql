@@ -1,11 +1,12 @@
 USE university;
 
 SELECT
-	student.name AS Имя,
-    student.surename AS Фамилия,
-    student.age AS Возраст,
-    student.name_class AS Группа
+	s.name AS Name,
+    s.surename AS Surename,
+    s.age AS Age, 
+    g.name AS `Group`
 FROM
-	student
+	student s
+LEFT JOIN `group` g ON s.id_group = g.id
 WHERE
-	student.name_class = 'ПС-13';
+	g.name = 'ПС-13';
