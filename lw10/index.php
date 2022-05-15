@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	<div class="bkb hidden">
+	<div class="blackout hidden">
   </div>
 	<?php include 'form.php';?>
 

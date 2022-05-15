@@ -536,7 +536,6 @@
 
 .background-blackout_visible
 {
-
 	width: 100%;
     height: 100%;
 	position: fixed;
@@ -548,7 +547,6 @@
 
 .background-blackout_hidden
 {
-
 	width: 100%;
     height: 100%;
 	position: fixed;
@@ -598,19 +596,6 @@
 	transform: scale(0.5, 0.5);
 	filter: blur(12px);
 }
-/* 
-@keyframes slidein {
-	from {
-	  margin-left: 100%;
-	  width: 300%;
-	}
-  
-	to {
-	  margin-left: 0%;
-	  width: 50%;
-	}
-} */
-
 
 .record-form
 {

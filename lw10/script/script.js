@@ -1,24 +1,24 @@
-const btnView = document.querySelectorAll('.button-register');
-const btnHidden = document.querySelectorAll('.hidden');
+const View = document.querySelectorAll('.button-register');
+const Hidden = document.querySelectorAll('.hidden');
 
-const bk = document.querySelector('.bkb');
+const bk = document.querySelector('.blackout');
 const popup = document.querySelector('.popup');
 
 
-btnView.forEach((el) => {
+View.forEach((el) => {
     el.addEventListener('click', () => {
-        let id = requestAnimationFrame(popupView);
-        cancelAnimationFrame(id);
         return requestAnimationFrame(popupView);
     })
 });
 
-btnHidden.forEach((el) => {
+Hidden.forEach((el) => {
     el.addEventListener('click', () => {
-        let id = requestAnimationFrame(popupHidden);
-        cancelAnimationFrame(id);
         return requestAnimationFrame(popupHidden);
     })
+});
+
+document.onkeydown = ((key) => {
+    if (key.code == "Escape") popupHidden();
 });
 
 function popupView() {
